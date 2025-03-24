@@ -5,6 +5,7 @@ Water = 2
 Gun = 3
 '''
 
+
 computer = random.choice([1, 2, 3])
 userInput = input("Enter your word: (s for Snake), (w for Water) and (g for Gun): ").upper()
 myDict = {"S": 1, "W": 2, "G": 3}
